@@ -1,2 +1,40 @@
 # OpenFlexure_Microscope
 Dokumentation zu Projektarbeit von Florian Martin Hartz und Katrin Bihr 2020-2022
+
+# Ziel des Projektes
+Ziel des Projekts „Bau eines OpenFlexure-Mikroskops“ ist es, mit kostengünstigen Bauteilen
+und Open Source Software ein günstiges Mikroskop aufzubauen, das eine hohe
+Auflösung besitzt. Zur Orientierung wird hierfür das OpenFlexure Micrsocope Project
+herangezogen, bei welchem die Gehäuseteile mit einem Kunststofffilament 3D-gedruckt
+werden. Als Anwendung ist der Einsatz in der Lehre (z.B. für Praktika) vorgesehen. Das
+Mikroskop soll hierzu auch fluoreszenzfähig sein. Die Bilder des Mikroskops sollen über
+eine Kamera aufgenommen werden, sodass diese auch zu einem Computer übertragen
+und dort gespeichert werden können. Zudem soll das Mikroskop mit Voranschreiten des
+Projekts um zusätzliche Funktionen erweitert werden. Über die Bearbeitungszeit von insgesamt
+drei Semestern wurden je Semester folgende Ziele ins Auge gefasst:
+
+1. Semester:
+* Planung einer geeigneten Mikroskopkonfiguration
+* Erstellen einer Teileübersicht
+* Bestellen aller Materialien
+* Vorbereitung und Durchführung des 3D-Drucks
+
+2. Semester:
+* Zusammenbau des Mikroskops
+* Einrichtung der Motorsteuerung
+* Aufnahme von Bildern
+
+3. Semester:
+* Erweiterung zum Fluoreszenzmikroskop (Bilder auch mit lebenden Zellen)
+* Einbringen von Modifikationen
+
+
+
+In den Unterordnern sind folgende Themen zu finden: 
+
+2 [Verwendete Materialien inkl. Kostenaufstellung](Verwendete_Materialien)
+3 [Bau des Mikroskops](Bau_des_Mikroskops)
+4 [Mikroskopierergebnisse](Mikroskopierergebnisse)
+5 [Fehler und Verbesserungen](Fehler und Verbesserungen)
+6 [Fazit und Ausblick](Fazit und Ausblick)
+B Ausführungsmöglichkeiten
