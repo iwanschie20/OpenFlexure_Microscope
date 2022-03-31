@@ -8,3 +8,7 @@ Im Prusa-Slicer wurden folgende Druck-Parameter eingestellt:
 * Infill: 20\%
 * Stützen: Keine (alle Teile sind so konstruiert, dass keine Stützstrukturen notwendig sind)
 
+    <p align="left">
+    <img src="01_Bilder/Tabelle_Druchkzeiten.PNG" width="550">
+    <em><br />3D-gedruckte Teile und ihre Druckzeiten</em>
+    </p>
