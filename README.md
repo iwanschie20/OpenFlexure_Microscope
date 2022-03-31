@@ -32,8 +32,8 @@ drei Semestern wurden je Semester folgende Ziele ins Auge gefasst:
 
 In den Unterordnern sind folgende Themen zu finden: 
 
-1. [Verwendete Materialien inkl. Kostenaufstellung](Verwendete_Materialien) 
-2. [Bau des Mikroskops](Bau_des_Mikroskops)
-3. [Mikroskopierergebnisse](Mikroskopierergebnisse)
-4. [Fehler und Verbesserungen](Fehler_und_Verbesserungen)
-5. [Fazit und Ausblick](Fazit_und_Ausblick)
+1. [Verwendete Materialien inkl. Kostenaufstellung](01_Verwendete_Materialien) 
+2. [Bau des Mikroskops](02_Bau_des_Mikroskops)
+3. [Mikroskopierergebnisse](03_Mikroskopierergebnisse)
+4. [Fehler und Verbesserungen](04_Fehler_und_Verbesserungen)
+5. [Fazit und Ausblick](05_Fazit_und_Ausblick)
