@@ -2,7 +2,7 @@
 
 ## Gedruckte Mikroskop- und Zubehörteile
 
-Alle Teile werden auf einem \emph{Prusa i3 MK3S} 3D-Drucker gedruckt. Als Filament wird \emph{Prusament PLA} in \emph{Galaxy Silver} und \emph{Vanilla White} verwendet.
+Alle Teile werden auf einem *Prusa i3 MK3S* 3D-Drucker gedruckt. Als Filament wird *Prusament PLA* in *Galaxy Silver* und *Vanilla White* verwendet.
 Im Prusa-Slicer wurden folgende Druck-Parameter eingestellt:
 * Schichtdicke: 0,2 mm (SPEED)
 * Infill: 20\%
@@ -17,58 +17,97 @@ Im Prusa-Slicer wurden folgende Druck-Parameter eingestellt:
 
 ## Elektronische Bauteile
 
-Nachfolgend !!! (noch einfügen) befindet sich eine vollständige Kostenübersicht der verwendeten, nicht druckbaren Bauteile. Bei den unter [Sonstige Kleinteile](Sonstige Kleinteile) aufgeführten Positionen (insbesondere den O-Ringen) empfiehlt es sich, einige Teile in Reserve zu haben und je nach Bedarf z.~B. mit unterschiedlichen Schraubenlängen zu experimentieren.
+Nachfolgend !!! (noch einfügen) befindet sich eine vollständige Kostenübersicht der verwendeten, nicht druckbaren Bauteile. Bei den unter [Sonstige Kleinteile](Sonstige Kleinteile) aufgeführten Positionen (insbesondere den O-Ringen) empfiehlt es sich, einige Teile in Reserve zu haben und je nach Bedarf z. B. mit unterschiedlichen Schraubenlängen zu experimentieren.
 
-* LED (weiß, \emph{Nichia 500D})
+* LED (weiß, *Nichia 500D*)
     * Durchmesser: 5 mm
     * Sockel: T-1 3/4
     * Spannung: 3,2 V
-    * Betrachtungswinkel: 15\textdegree
+    * Betrachtungswinkel: 15°
     * Lichtstärke: 10 cd
 
-* LED (grün, 525 nm, \emph{LuminousLED ultrahell})
+* LED (grün, 525 nm, *LuminousLED ultrahell*)
     * Durchmesser: 5 mm
     * Sockel: T-1 3/4
     * Spannung: 3,0 - 3,4 V
-    * Betrachtungswinkel: 15\textdegree
-\item Lichtstärke: 22 cd
-\end{itemize}
+    * Betrachtungswinkel: 15°
+    * Lichtstärke: 22 cd
 
-\item Ohmsche Widerstände
-\begin{itemize}
-\item 2x 60 $\Omega$ Festwiderstände
-\item Potentiometer mit bis zu 10 k$\Omega$
-\end{itemize} 
+* Ohmsche Widerstände
+    * 2x 60 Ohm Festwiderstände
+    * Potentiometer mit bis zu 10 kOhm
 
-\item Raspberry Pi 4 Model B + Kameramodul
-\begin{itemize}
-\item Arbeitsspeicher (RAM): 2 GB
-\item Prozessor: ARM Cortex-A72 (4x1,5 GHz)
-\item Anschlüsse:
-\begin{itemize}
-\item Ethernet/LAN (10/100/1000 Mbit)
-\item 2x USB 2.0
-\item 2x USB 3.0
-\item 2x HDMI
-\item microSD
-\item 3,5 mm-Klinke
-\item USB-C ($\to$ Stromversorgung)
-\end{itemize}
-\item Ausgangsspannung: 5 V
-\item Ausgangsstrom: 3 A
-\end{itemize}
+* Raspberry Pi 4 Model B + Kameramodul
+    * Arbeitsspeicher (RAM): 2 GB
+    * Prozessor: ARM Cortex-A72 (4x1,5 GHz)
+    * Anschlüsse:
+      * Ethernet/LAN (10/100/1000 Mbit)
+      * 2x USB 2.0
+      * 2x USB 3.0
+      * 2x HDMI
+      * microSD
+      * 3,5 mm-Klinke
+      * USB-C ($\to$ Stromversorgung)
+      * Ausgangsspannung: 5 V
+      * Ausgangsstrom: 3 A
 
-\item Mikroschritt-Motoren \emph{28BYJ-48} + Treiberplatinen
-\begin{itemize}
-\item Getriebeübersetzung: 1/64
-\item Schrittwinkel: 5625 $\ast$ 1/64
-\end{itemize}
+* Mikroschritt-Motoren *28BYJ-48* + Treiberplatinen
+    * Getriebeübersetzung: 1/64
+    * Schrittwinkel: 5625 * 1/64
 
-\item Mikrocontroller \emph{Arduino nano}
-\begin{itemize}
-\item Arbeitsspeicher (RAM): 2 GB
-\item EPROM: 1 KB
-\item Taktrate: 16 MHz
-\end{itemize}
+* Mikrocontroller *Arduino nano*
+    * Arbeitsspeicher (RAM): 2 GB
+    * EPROM: 1 KB
+    * Taktrate: 16 MHz
 
-\item USB-C-Buchse
+* USB-C-Buchse
+
+## Optische Teile
+
+* Achromatische Linse (*Thorlabs AC127-050-A*)
+    * Plankonvex
+    * Material: N-BAK4/SF5
+    * Brennweite: *f* = 50 mm
+    * Lichtbereich: 400 - 700 nm
+    * Durchmesser: 12,7 mm (0,5")
+
+* Kunststoff-Kondenserlinse
+    * Plankonvex
+    * Material: PMMA (Polymethylmethacrylat)
+    * Brennweite: *f* = 5 mm
+    * Durchmesser: 13 mm
+
+* Mikroskop-Objektiv (*KERN & SOHN*)
+    * Vergrößerung: 40x
+    * Numerische Apertur: 0,65
+    * Tubuslänge: 160 mm
+    * Deckglaskorrektur: 0,17
+
+* Langpassfilter (*Hoya O58*)
+    * Grenzwellenlänge: 580 +/- 6 nm
+    * Durchmesser: 12,5 mm
+    * Dicke: 2,5 mm
+    * Reflexionsfaktor P_d: 0,92
+
+
+## Sonstige Kleinteile}
+
+* 3x M3x25 Sechskant-Schrauben
+* 3x M3 Messing-Muttern
+* 7x M3 Edelstahl-Mutter
+* 8x M3 Unterlegscheiben
+* 8x M3x8 Zylinderkopf-Schrauben
+* 1x M3x10 Zylinderkopf-Schrauben
+* 4x M3x16 Zylinderkopf-Schrauben
+* 2x M3x20 Zylinderkopf-Schrauben
+* 4x M2x6 Zylinderkopf-Schrauben
+* 6x M4x6 Linsenkopf-Schrauben
+* 3x 30x2 O-Ringe (Viton)
+* 4x M1.6x5 Zylinderkopf-Schrauben
+* 4x M1.6 Messing-Muttern
+* 2x M2.5x8 Zylinderkopf-Schrauben
+* 2x M2.5 Edelstahl-Muttern
+* Litzendraht
+* Steckbrückenkabel
+* 2x Schiebeschalter mit Lötanschluss
+
