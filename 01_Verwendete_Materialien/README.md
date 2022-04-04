@@ -17,7 +17,7 @@ Im Prusa-Slicer wurden folgende Druck-Parameter eingestellt:
 
 ## Elektronische Bauteile
 
-Nachfolgend !!! (noch einfügen) befindet sich eine vollständige Kostenübersicht der verwendeten, nicht druckbaren Bauteile. Bei den unter [Sonstige Kleinteile](Sonstige Kleinteile) aufgeführten Positionen (insbesondere den O-Ringen) empfiehlt es sich, einige Teile in Reserve zu haben und je nach Bedarf z. B. mit unterschiedlichen Schraubenlängen zu experimentieren.
+Nachfolgend !!! (noch einfügen) befindet sich eine vollständige Kostenübersicht der verwendeten, nicht druckbaren Bauteile. Bei den unter [Sonstige Kleinteile](sonstige-kleinteile) aufgeführten Positionen (insbesondere den O-Ringen) empfiehlt es sich, einige Teile in Reserve zu haben und je nach Bedarf z. B. mit unterschiedlichen Schraubenlängen zu experimentieren.
 
 * LED (weiß, *Nichia 500D*)
     * Durchmesser: 5 mm
