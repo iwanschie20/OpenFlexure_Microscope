@@ -90,7 +90,7 @@ Nachfolgend !!! (noch einfügen) befindet sich eine vollständige Kostenübersic
     * Reflexionsfaktor P_d: 0,92
 
 
-## Sonstige Kleinteile}
+## [Sonstige Kleinteile](sonstige-kleinteile)
 
 * 3x M3x25 Sechskant-Schrauben
 * 3x M3 Messing-Muttern
