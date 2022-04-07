@@ -195,7 +195,6 @@ Weil hier eine möglichst hohe Stabilität notwendig ist, ist es ratsam, die Buc
 \label{pic: no062}
 \end{figure}
 
-%\clearpage
 
 \begin{figure}[!htbp]
 \centering
@@ -273,9 +272,9 @@ Die Teile in der OpenFlexure-Bibliothek sind unveränderliche STL-Dateien. Für 
 \label{pic: no09}
 \end{figure}
 
-7. \emph{Inventor} öffnen
-8. Unter \emph{Datei~>~Öffnen~>~DWG importieren} die zuvor gespeicherte DWG-Datei öffnen
-\item Nun öffnet sich der \emph{DWG-/DXF-Dateiassistent}. Hier muss \emph{Inhalt lesen aus AutoCAD- oder AutoCAD Mechanical-Datei} ausgewählt werden. Mit einem Klick auf \emph{Weiter} wird die Dateivorschau geöffnet. Mit einem erneuten Klick auf \emph{Weiter} öffnen sich die \emph{Importoptionen} für die ausgewählte Datei.
+7. *Inventor* öffnen
+8. Unter *Datei~>~Öffnen~>~DWG importieren* die zuvor gespeicherte DWG-Datei öffnen
+9. Nun öffnet sich der *DWG-/DXF-Dateiassistent*. Hier muss *Inhalt lesen aus AutoCAD- oder AutoCAD Mechanical-Datei* ausgewählt werden. Mit einem Klick auf *Weiter* wird die Dateivorschau geöffnet. Mit einem erneuten Klick auf *Weiter* öffnen sich die *Importoptionen* für die ausgewählte Datei.
 
 \begin{figure}[!htbp]
 \centering
@@ -284,16 +283,15 @@ Die Teile in der OpenFlexure-Bibliothek sind unveränderliche STL-Dateien. Für 
 \label{pic: no10}
 \end{figure}
 
-\item In \emph{Importoptionen für Ziel} müssen die in Abbildung \ref{pic: no10} gezeigten Einstellungen ausgewählt werden. Insbesondere die rot umrandete Einstellung \emph{Neues Bauteil} ist wichtig.
-\item Auf \emph{Fertig stellen} klicken und warten, bis das Modell vollständig geladen ist. Dieses wird als Mesh dargestellt.
-\item Mit der Maus ein Rechteck über das Teil ziehen, sodass alle Kanten markiert sind und loslassen. Das gesamte Modell sollte nun eingefärbt sein.
-\item Im Reiter \emph{3D-Modell} im Bereich \emph{Oberfläche} auf \emph{Heften} klicken.
-\item Im Fenster, das sich öffnet, auf \emph{Anwenden} klicken
-\item Das Teil kann nun in \emph{Inventor} bearbeitet werden und als STL-, STEP- oder OBJ-Datei exportiert werden.
+10. In *Importoptionen für Ziel* müssen die in Abbildung \ref{pic: no10} gezeigten Einstellungen ausgewählt werden. Insbesondere die rot umrandete Einstellung *Neues Bauteil* ist wichtig.
+11. Auf *Fertig stellen* klicken und warten, bis das Modell vollständig geladen ist. Dieses wird als Mesh dargestellt.
+12. Mit der Maus ein Rechteck über das Teil ziehen, sodass alle Kanten markiert sind und loslassen. Das gesamte Modell sollte nun eingefärbt sein.
+13. Im Reiter *3D-Modell* im Bereich *Oberfläche* auf *Heften* klicken.
+14. Im Fenster, das sich öffnet, auf *Anwenden* klicken
+15. Das Teil kann nun in *Inventor* bearbeitet werden und als STL-, STEP- oder OBJ-Datei exportiert werden.
 
-\end{enumerate}
 
-Während dieses Projekts wurde der Mikroskop-Sockel (\emph{microscope\_stand\_30-BS.stl}) modifiziert. An der Seitenwand links von der Öffnung in der Grundfläche wurden zwei rechteckige und eine kreisförmige Öffnung eingearbeitet. Diese sind in Abbildung \ref{pic: no11} zu sehen.
+Während dieses Projekts wurde der Mikroskop-Sockel (*microscope\_stand\_30-BS.stl*) modifiziert. An der Seitenwand links von der Öffnung in der Grundfläche wurden zwei rechteckige und eine kreisförmige Öffnung eingearbeitet. Diese sind in Abbildung \ref{pic: no11} zu sehen.
 
 \begin{figure}[!htbp]
 \centering
@@ -302,7 +300,7 @@ Während dieses Projekts wurde der Mikroskop-Sockel (\emph{microscope\_stand\_30
 \label{pic: no11}
 \end{figure}
 
-Diese Aussparungen sind für ein Potentiometer und zwei Schiebeschalter vorgesehen. Mit einem Schalter soll die Stromversorgung ein- und ausgeschaltet werden können, während der andere Schalter die Möglichkeit bieten soll, zwischen zwei LEDs umzuschalten (in dieser Konfiguration zwischen der weißen Standard-LED und einer ultrahellen grünen LED mit einer Lichtwellenlänge von 525 nm). Mit dem Potentiometer soll die jeweilige LED gedimmt werden können. Die Aussparungen in der Lochraserplatine wurden mit einer Laubsäge erstellt und die Durchkontaktierungslöcher zur Orientierung genutzt. Beide Aussparungen sind sechs Löcher (ca. 20 mm) ,,hoch``. Die Aussparung für das Potentiometer ist drei Löcher (ca. 10 mm) ,,breit``, bei der Aussparung für die Schalter sind es vier (ca. 13 mm). Um die Schalter an die Platine schrauben zu können musste lediglich ein Durchkontaktierungsloch auf jeder Seite für jeden Schalter vergrößert werden. Die vorbereitete Platine ohne Bauteile sowie die bestückte Platine sind jeweils in Abbildung \ref{pic: no12} zu sehen.
+Diese Aussparungen sind für ein Potentiometer und zwei Schiebeschalter vorgesehen. Mit einem Schalter soll die Stromversorgung ein- und ausgeschaltet werden können, während der andere Schalter die Möglichkeit bieten soll, zwischen zwei LEDs umzuschalten (in dieser Konfiguration zwischen der weißen Standard-LED und einer ultrahellen grünen LED mit einer Lichtwellenlänge von 525 nm). Mit dem Potentiometer soll die jeweilige LED gedimmt werden können. Die Aussparungen in der Lochraserplatine wurden mit einer Laubsäge erstellt und die Durchkontaktierungslöcher zur Orientierung genutzt. Beide Aussparungen sind sechs Löcher (ca. 20 mm) hoch. Die Aussparung für das Potentiometer ist drei Löcher (ca. 10 mm) breit, bei der Aussparung für die Schalter sind es vier (ca. 13 mm). Um die Schalter an die Platine schrauben zu können musste lediglich ein Durchkontaktierungsloch auf jeder Seite für jeden Schalter vergrößert werden. Die vorbereitete Platine ohne Bauteile sowie die bestückte Platine sind jeweils in Abbildung \ref{pic: no12} zu sehen.
 
 \begin{figure}[!htbp]
 \centering
