@@ -11,9 +11,7 @@ Zunächst wird in die entsprechenden Schlitze am HGT mit dem Mutternwerkzeug je 
 
 Danach werden die Sechskant-Schrauben in die großen Zahnräder gesteckt, sodass die Schraubenköpfe in die Sechskant-Aussparungen der Zahnräder liegen. Die Schrauben mit den Zahnrädern werden (mit je zwei Unterlegscheiben dazwischen) in die entsprechenden Schraubenlöcher am HGT gedreht und die Muttern mit dem Werkzeug festgehalten, bis die Schrauben festgedreht sind.
 
-Als nächstes werden die Füße für den Anbau vorbereitet. Am HGT an den jeweiligen Stellen können noch dünne Querstreben vorhanden sein, diese müssen mit einem Messer entfernt werden.
-
-Um die Fußelemente am HGT zu befestigen, wird mit dem Gummiband-Werkzeug jeweils ein O-Ring in ein Fußelement eingebracht. Dies ist in Abbildung \ref{pic: no01} zu sehen.
+Als nächstes werden die Füße für den Anbau vorbereitet. Am HGT an den jeweiligen Stellen können noch dünne Querstreben vorhanden sein, diese müssen mit einem Messer entfernt werden. Um die Fußelemente am HGT zu befestigen, wird mit dem Gummiband-Werkzeug jeweils ein O-Ring in ein Fußelement eingebracht. Dies ist in Abbildung \ref{pic: no01} zu sehen.
 
 Die so präparierten Füße werden nun an den jeweiligen Stellen befestigt. Dazu wird der jeweilige Fuß am HGT aufgesetzt und das Gummiband-Werkzeug hineingedrückt, bis es zweimal (einmal pro Seite) klickt. Das Werkzeug wird dann herausgezogen und die Prozedur für die anderen Achsen wiederholt.
 
