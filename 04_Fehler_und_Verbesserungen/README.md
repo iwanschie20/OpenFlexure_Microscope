@@ -1,4 +1,4 @@
-# Fehler und Verbesserungen}
+# Fehler und Verbesserungen
 
 ## Systematische Fehler
 
