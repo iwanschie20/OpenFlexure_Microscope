@@ -291,7 +291,11 @@ Die Teile in der OpenFlexure-Bibliothek sind unveränderliche STL-Dateien. Für 
 15. Das Teil kann nun in *Inventor* bearbeitet werden und als STL-, STEP- oder OBJ-Datei exportiert werden.
 
 
-Während dieses Projekts wurde der Mikroskop-Sockel (*microscope\_stand\_30-BS.stl*) modifiziert. An der Seitenwand links von der Öffnung in der Grundfläche wurden zwei rechteckige und eine kreisförmige Öffnung eingearbeitet. Diese sind in Abbildung \ref{pic: no11} zu sehen.
+Während dieses Projekts wurden der Mikroskop-Sockel (\emph{microscope\_stand\_30-BS.stl}) und das Optikmodul (\emph{optics\_picamera\_2\_rms\_f50d13.stl}) modifiziert.
+
+### Mikroskopsockel
+
+An der Seitenwand links von der Öffnung in der Grundfläche wurden zwei rechteckige und eine kreisförmige Öffnung eingearbeitet. Diese sind in Abbildung \ref{pic: no11} zu sehen.
 
 \begin{figure}[!htbp]
 \centering
@@ -328,3 +332,61 @@ Um die Platine befestigen zu können, wurden in den Sockel an passenden Stellen 
 \end{figure}
 
 Damit der Raspberry Pi noch Platz im Sockel hat, mussten für die Schalter möglichst kurze Schrauben gewählt werden. 
+
+
+### Optikmodul
+
+Während erster Tests mit fluoreszenten Proben fiel auf, dass die Fluoreszenzmikroskopie bei diesem Aufbau auch mittels Durchlicht möglich ist. Für die Fluoreszenzmikroskopie per Hellfeldbeleuchtung ist ein kostenintensiver Beamsplitter notwendig und der bisher vorhandene 50/50-Beamsplitter ist für solche Anwendungen nicht geeignet.
+
+Um die Fluoreszenz mit Durchlicht umzusetzen, wurde das Durchlicht-Optikmodul (\emph{optics\_picamera\_2\_rms\_f50d13.stl}) so verändert, dass ein optisches Filterelement zwischen das Objektiv und das Kameramodul eingebracht werden kann. Dazu wurde zusätzlich ein passendes Einschubfach erstellt.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{Bilder/optikmodul_neu.jpg}
+\caption{Neues Durchlicht-Optikmodul (links) mit Einschub und passendem Filter (rechts)}
+\label{pic: no1401}
+\end{figure}
+
+Damit der für diese Projektarbeit zur Verfügung stehende Langpassfilter mit 12,5~mm Durchmesser gut in die Fassung des Einschubs passt, wurde für diese ein Außendurchmesser von 13,5~mm gewählt. Der Innendurchmesser beträgt 11 mm, um einen Kompromiss zwischen Halt und möglichst großer Öffnung zu gewährleisten (siehe Abbildung \ref{pic: no1402}).
+
+\begin{figure}[!htbp]
+\centering
+\subfloat{\includegraphics[width=0.8\textwidth]{Bilder/maße_einschub_1.png}}\\
+\subfloat{\includegraphics[width=0.8\textwidth]{Bilder/maße_einschub_2.png}}
+\caption{Maße des Einschubs für Filtermodule}
+\label{pic: no1402}
+\end{figure}
+
+Bei der Erstellung der Öffnung im Optikmodul mussten Toleranzen beim 3D-Druck berücksichtigt werden. Aus diesem Grund ist bei der neuen STL-Datei in alle Richtungen eine ein zusätzlicher Abstand von jeweils ca. 0,525~mm vorhanden (siehe Abbildung \ref{pic: no1403}).
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{Bilder/maße_schlitz.png}
+\caption{Maße für die eingebrachte Öffnung im Transmissions-Optikmodul}
+\label{pic: no1403}
+\end{figure}
+
+Der Mittelpunkt für die eingebrachte Öffnung liegt auf der Lotgeraden, welche vom Mittelpunkt der Blende durch die gewählte Ebene verläuft (siehe Abbildung \ref{pic: no1404}).
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.65\textwidth]{Bilder/lotgerade.png}
+\caption{Position des Mittelpunkts der eingebrachten Öffnung in der Transversalebene}
+\label{pic: no1404}
+\end{figure}
+
+Die erstellten Teile dienen nun als neues Optikmodul mit der Möglichkeit, optional ein optisches Filterelement für die Fluoreszenzmikroskopie einzubringen. Zur Erregung der Probe wird eine LED gewählt, welche Licht mit der gewünschten Wellenlänge abstrahlt.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.4\textwidth]{Bilder/optikmodul_neu_zsm.jpg}
+\caption{Zusammengesetztes Optikmodul}
+\label{pic: no1405}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{Bilder/zsmbau_neu.jpg}
+\caption{Zusammengesetzter Hauptteil des Mikroskops mit neuem Optikmodul}
+\label{pic: no1406}
+\end{figure}
